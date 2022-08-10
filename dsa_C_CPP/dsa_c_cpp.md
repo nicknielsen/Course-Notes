@@ -277,4 +277,40 @@ __2D Array A[3][4], column-mapped__
   - Set membership
     - Same procedure as search
 
-
+## Strings
+## Intro
+- Character set = the characters supported by a computer/programming language
+- ASCII = American Standard for Information Interchange
+  - Letters and symbols are mapped to decimal values
+    - A = 65, B = 96
+    - a = 97, b = 98
+  - Numbers are also mapped to decimal values
+    - 0 = 48, 1 = 49, 2 = 50
+  - Keyboard keys are also mapped
+    - Enter = 10
+    - space = 13
+    - esc = 27
+  - from 0 to 127
+  - 7 bits are used for all ascii
+    - 2^7 = 128
+  - 1 char = 1 byte
+- ANSI = American National Standards Institute
+  - Supports ASCII
+- Unicodes = international
+  - ASCII is a subset
+  - takes 2 bytes (16 bits)
+  - represented in hexidec
+  - unicode.org
+- char data type
+  - single symbol in single quotes
+- %c printf will print the character
+  - %d printf will show the decimal value
+- char array
+  - char array[3] = {'a', 'b', 'c'}
+  - char array[3] = {65, 66, 67}
+- end of string = string delimiter = null character = null terminator = `\0`
+- string has null terminator, char array does not
+- Compiler automatically adds null terminator
+- scanf cannot take multiple words
+  - gets() reads an entire string until enter key
+- 
